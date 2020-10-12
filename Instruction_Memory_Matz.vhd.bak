@@ -1,0 +1,31 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity Instruction_Memory_Matz is
+	port(
+--		enable_write_matz : in std_logic;
+--		write_value_matz : in std_logic_vector(31 downto 0);
+		addr_in_matz : in std_logic_vector(31 downto 0);
+--		clk_matz : in std_logic;
+		read_out_value_matz : out std_logic_vector(31 downto 0)		
+	);
+end Instruction_Memory_Matz;
+
+architecture Instmem of Instruction_Memory_Matz is
+	type inst_array_matz is array (0 to 63) of std_logic_vector(7 downto 0);
+	signal inst_matz : data_array_matz := (x"00000001",x"00000002", x"00000003", x"00000004", x"00000005", others => x"00000000");
+begin
+
+--process(clk_matz)
+--begin
+--		if rising_edge(clk_matz) then
+--			if enable_write_matz = '1' then
+--					inst_matz(to_integer(unsigned(addr_in_matz))) <= write_value_matz;
+--			end if;
+--		end if;
+--end process;
+
+		read_out_value_matz <= inst_matz(to_integer(unsigned(addr_in_matz)));
+
+end architecture;

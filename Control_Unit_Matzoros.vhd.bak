@@ -1,0 +1,24 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity Control_Unit_Matzoros is
+port {
+			OpCode_in_matz : in std_logic_vector(5 downto 0);
+			RegDST_matz : out std_logic;
+			ALUSrc_matz : out std_logic;
+			MemtoReg_matz : out std_logic;
+			RegWrite_matz : out std_logic;
+			MemWrite_matz : out std_logic;
+			PCSrc_matz : out std_logic;
+			Jump_matz : out std_logic;
+			ExtOp_matz : out std_logic;
+			ALUop_matz : out std_logic_vector(2 downto 0)
+		};
+end Control_Unit_Matzoros;
+		
+architecture ConUnit of Control_Unit_Matzoros is
+
+
+
+end ConUnit;

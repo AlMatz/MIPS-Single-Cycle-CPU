@@ -1,0 +1,165 @@
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/display_it_mat.vhd {1 {vcom -work work_test -2002 -explicit C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/display_it_mat.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity display_it_mat
+-- Compiling architecture structural of display_it_mat
+
+} {} {}} C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/test_bench_matz_SCPU.vhd {1 {vcom -work work_test -2002 -explicit C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/test_bench_matz_SCPU.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity test_bench_matz_SCPU
+-- Compiling architecture arch of test_bench_matz_SCPU
+
+} {} {}} C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/two2one_5bit_mux_matz.vhd {1 {vcom -work work_test -2002 -explicit C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/two2one_5bit_mux_matz.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity two2one_5bit_mux_matz
+-- Compiling architecture mux5bit of two2one_5bit_mux_matz
+
+} {} {}} C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/Program_Counter_Matzoros.vhd {1 {vcom -work work_test -2002 -explicit C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/Program_Counter_Matzoros.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Program_Counter_Matzoros
+-- Compiling architecture pcmatz of Program_Counter_Matzoros
+
+} {} {}} C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/conv_bcd_to_7seg_mat.vhd {1 {vcom -work work_test -2002 -explicit C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/conv_bcd_to_7seg_mat.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity conv_bcd_to_7seg_mat
+-- Compiling architecture behavioural of conv_bcd_to_7seg_mat
+
+} {} {}} C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/immediate_holder_matz.vhd {1 {vcom -work work_test -2002 -explicit C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/immediate_holder_matz.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity immediate_holder_matz
+-- Compiling architecture immhold of immediate_holder_matz
+
+} {} {}} C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/ALUControl_Unit_Matzoros.vhd {1 {vcom -work work_test -2002 -explicit C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/ALUControl_Unit_Matzoros.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALUControl_Unit_Matzoros
+-- Compiling architecture aluctrl of ALUControl_Unit_Matzoros
+
+} {} {}} C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/BinaryToBCD_mat_s2020.vhd {1 {vcom -work work_test -2002 -explicit C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/BinaryToBCD_mat_s2020.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity BinaryToBCD_mat_s2020
+-- Compiling architecture behavioural of BinaryToBCD_mat_s2020
+
+} {} {}} C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/immediate_extender_matz.vhd {1 {vcom -work work_test -2002 -explicit C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/immediate_extender_matz.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity immediate_extender_matz
+-- Compiling architecture immex of immediate_extender_matz
+
+} {} {}} C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/Adder_32_Matzoros.vhd {1 {vcom -work work_test -2002 -explicit C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/Adder_32_Matzoros.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity Adder_32_Matzoros
+-- Compiling architecture adder of Adder_32_Matzoros
+
+} {} {}} C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/immediate_PC_extender_matz.vhd {1 {vcom -work work_test -2002 -explicit C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/immediate_PC_extender_matz.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity immediate_PC_extender_matz
+-- Compiling architecture immex2 of immediate_PC_extender_matz
+
+} {} {}} C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/Instruction_Memory_Matz.vhd {1 {vcom -work work_test -2002 -explicit C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/Instruction_Memory_Matz.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Instruction_Memory_Matz
+-- Compiling architecture Instmem of Instruction_Memory_Matz
+
+} {} {}} C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/ALU_matz.vhd {1 {vcom -work work_test -2002 -explicit C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/ALU_matz.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU_matz
+-- Compiling architecture alumat of ALU_matz
+
+} {} {}} C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/Data_Memory_Matz.vhd {1 {vcom -work work_test -2002 -explicit C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/Data_Memory_Matz.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Data_Memory_Matz
+-- Compiling architecture datamem of Data_Memory_Matz
+
+} {} {}} C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/Control_Unit_Matzoros.vhd {1 {vcom -work work_test -2002 -explicit C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/Control_Unit_Matzoros.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Control_Unit_Matzoros
+-- Compiling architecture ConUnit of Control_Unit_Matzoros
+
+} {} {}} C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/conv_sign_bcd_to_7seg_mat.vhd {1 {vcom -work work_test -2002 -explicit C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/conv_sign_bcd_to_7seg_mat.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity conv_sign_bcd_to_7seg_mat
+-- Compiling architecture behavioural of conv_sign_bcd_to_7seg_mat
+
+} {} {}} C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/Register_File_Matz.vhd {1 {vcom -work work_test -2002 -explicit C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/Register_File_Matz.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Register_File_Matz
+-- Compiling architecture behav of Register_File_Matz
+
+} {} {}} C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/instruction_register_matz_s2020.vhd {1 {vcom -work work_test -2002 -explicit C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/instruction_register_matz_s2020.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity instruction_register_matz_s2020
+-- Compiling architecture regiarc of instruction_register_matz_s2020
+
+} {} {}} C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/two2one_mux_matz.vhd {1 {vcom -work work_test -2002 -explicit C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/two2one_mux_matz.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity two2one_mux_matz
+-- Compiling architecture mux21 of two2one_mux_matz
+
+} {} {}}

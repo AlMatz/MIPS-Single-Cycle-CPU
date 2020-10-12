@@ -1,0 +1,28 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_signed.all;
+
+entity ALU_matz is
+	port ( 
+		ALUctrl_in_matz : in std_logic_vector(2 downto 0);
+		input_operand_a_matz : in std_logic_vector(31 downto 0);
+		input_operand_b_matz : in std_logic_vector(31 downto 0);
+		zero_output_matz : out std_logic;
+		output_matz : inout std_logic_vector(31 downto 0)
+	);
+end ALU_matz;
+
+architecture alumat of ALU_matz is
+begin
+--process(ALUctrl_in_matz, input_operand_a_matz, input_operand_b_matz)
+
+output_matz <= input_operand_a_matz + input_operand_b_matz when ALUctrl_in_matz = "000" else
+				<= input_operand_a_matz - input_operand_b_matz when ALUctrl_in_matz = "001" else
+				<= input_operand_a_matz or input_operand_b_matz when ALUctrl_in_matz = "010";
+				
+zero_output_matz <= '1' when (ALUctrl_in_matz = "000" and input_operand_a_matz + input_operand_b_matz = "0") else
+					  <= '1' when (ALUctrl_in_matz = "000" and input_operand_a_matz - input_operand_b_matz = "0") else
+					  <= '0';
+
+end alumat;
+

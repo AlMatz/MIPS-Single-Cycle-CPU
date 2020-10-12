@@ -1,0 +1,170 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(symbol
+	(rect 472 344 784 424)
+	(text "conv_sign_bcd_to_7seg_mat" (rect 5 0 148 12)(font "Arial" ))
+	(text "inst" (rect 8 64 25 76)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "sign_neg_or_post_val_mat" (rect 0 0 132 12)(font "Arial" ))
+		(text "sign_neg_or_post_val_mat" (rect 21 27 153 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "unsigned_or_sign_mat" (rect 0 0 109 12)(font "Arial" ))
+		(text "unsigned_or_sign_mat" (rect 21 43 130 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 312 32)
+		(output)
+		(text "output_display_mat[6..0]" (rect 0 0 122 12)(font "Arial" ))
+		(text "output_display_mat[6..0]" (rect 188 27 310 39)(font "Arial" ))
+		(line (pt 312 32)(pt 296 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 296 64))
+	)
+)
+(symbol
+	(rect 512 472 768 552)
+	(text "conv_bcd_to_7seg_mat" (rect 5 0 123 12)(font "Arial" ))
+	(text "inst1" (rect 8 64 31 76)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "input_mat[3..0]" (rect 0 0 74 12)(font "Arial" ))
+		(text "input_mat[3..0]" (rect 21 27 95 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 256 32)
+		(output)
+		(text "output_display_mat[6..0]" (rect 0 0 122 12)(font "Arial" ))
+		(text "output_display_mat[6..0]" (rect 132 27 254 39)(font "Arial" ))
+		(line (pt 256 32)(pt 240 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 240 64))
+	)
+)
+(symbol
+	(rect 472 176 784 288)
+	(text "BinaryToBCD_mat_s2020" (rect 5 0 132 12)(font "Arial" ))
+	(text "inst2" (rect 8 96 31 108)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "binary_in_mat[nbits-1..0]" (rect 0 0 122 12)(font "Arial" ))
+		(text "binary_in_mat[nbits-1..0]" (rect 21 27 143 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "sign_flag_mat" (rect 0 0 69 12)(font "Arial" ))
+		(text "sign_flag_mat" (rect 21 43 90 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 312 32)
+		(output)
+		(text "decimal_mat[4*nbits-1/3+1-1..0]" (rect 0 0 156 12)(font "Arial" ))
+		(text "decimal_mat[4*nbits-1/3+1-1..0]" (rect 159 27 315 39)(font "Arial" ))
+		(line (pt 312 32)(pt 296 32)(line_width 3))
+	)
+	(port
+		(pt 312 48)
+		(output)
+		(text "sign_neg_or_post_val_mat" (rect 0 0 132 12)(font "Arial" ))
+		(text "sign_neg_or_post_val_mat" (rect 180 43 312 55)(font "Arial" ))
+		(line (pt 312 48)(pt 296 48))
+	)
+	(port
+		(pt 312 64)
+		(output)
+		(text "unsigned_or_sign_mat" (rect 0 0 109 12)(font "Arial" ))
+		(text "unsigned_or_sign_mat" (rect 199 59 308 71)(font "Arial" ))
+		(line (pt 312 64)(pt 296 64))
+	)
+	(parameter
+		"Nbits"
+		"32"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 296 96))
+	)
+	(annotation_block (parameter)(rect 784 144 968 176))
+)
+(symbol
+	(rect 984 304 1336 416)
+	(text "display_it_mat" (rect 5 0 76 12)(font "Arial" ))
+	(text "inst3" (rect 8 96 31 108)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "sign_input_mat" (rect 0 0 74 12)(font "Arial" ))
+		(text "sign_input_mat" (rect 21 27 95 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "binary_input_mat[nbits-1..0]" (rect 0 0 138 12)(font "Arial" ))
+		(text "binary_input_mat[nbits-1..0]" (rect 21 43 159 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 352 32)
+		(output)
+		(text "display_on_seg_mat[7*nbits-1/3+1-1..0]" (rect 0 0 195 12)(font "Arial" ))
+		(text "display_on_seg_mat[7*nbits-1/3+1-1..0]" (rect 166 27 361 39)(font "Arial" ))
+		(line (pt 352 32)(pt 336 32)(line_width 3))
+	)
+	(port
+		(pt 352 48)
+		(output)
+		(text "display_sign_seg[6..0]" (rect 0 0 110 12)(font "Arial" ))
+		(text "display_sign_seg[6..0]" (rect 238 43 348 55)(font "Arial" ))
+		(line (pt 352 48)(pt 336 48)(line_width 3))
+	)
+	(port
+		(pt 352 64)
+		(output)
+		(text "binary_input_mat_second[nbits-1..0]" (rect 0 0 179 12)(font "Arial" ))
+		(text "binary_input_mat_second[nbits-1..0]" (rect 180 59 359 71)(font "Arial" ))
+		(line (pt 352 64)(pt 336 64)(line_width 3))
+	)
+	(parameter
+		"Nbits"
+		"32"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 336 96))
+	)
+	(annotation_block (parameter)(rect 1336 272 1520 304))
+)

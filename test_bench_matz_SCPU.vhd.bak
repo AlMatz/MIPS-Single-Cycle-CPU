@@ -1,0 +1,61 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity test_bench_matz_SCPU is
+end test_bench_matz_SCPU;
+
+architecture arch of test_bench_matz_SCPU is
+ component BNR_n_bit_comparator
+   port(
+     a,b : in std_logic_vector(7 downto 0);
+	  sign :in std_logic;
+     result : out std_logic_vector(7 downto 0));
+ end component;
+ signal p1,p0, pout  : std_logic_vector(7 downto 0);
+ signal error  : std_logic := '0';
+ signal signed_sig : std_logic;
+
+begin
+ uut : BNR_n_bit_comparator port map (a => p0, b => p1,sign => signed_sig, result => pout);
+ process is
+ variable i : integer := 0;
+ variable j : integer := 0;
+ begin
+ signed_sig <= '0';
+while (i < 255) loop
+p0 <= std_logic_vector(to_unsigned(i, p0'length));
+while (j < 255) loop
+p1 <= std_logic_vector(to_unsigned(j, p1'length));
+wait for 1 ns;
+if((pout = (pout'range=>'0') and i < j) or (pout = (pout'range => '1') and i>=j)) then
+error <= '1';
+end if;
+j := j+1;
+end loop;
+j:= 0;
+i:=i+1;
+end loop;
+i := -128;
+j := -128;
+signed_sig <= '1';
+while (i < 127) loop
+p0 <= std_logic_vector(to_signed(i, p0'length));
+while (j < 127) loop
+p1 <= std_logic_vector(to_signed(j, p1'length));
+wait for 1 ns;
+if((pout = (pout'range=>'0') and i < j) or (pout = (pout'range => '1') and i>=j)) then
+error <= '1';
+end if;
+j := j+1;
+end loop;
+j:= -128;
+i:=i+1;
+end loop;
+if(error = '0') then
+ report "No errors detected. Simulation successful" severity failure;
+else
+ report "Error detected" severity failure;
+end if;
+end process;
+end arch;

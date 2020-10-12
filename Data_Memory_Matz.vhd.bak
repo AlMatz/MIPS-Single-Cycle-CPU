@@ -1,0 +1,31 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity Data_Memory_Matz is
+	port(
+		wenable_matz : in std_logic;
+		write_value_in_matz : in std_logic_vector(31 downto 0);
+		address_in_matz : in std_logic_vector(4 downto 0);
+		clock_matz : in std_logic;
+		read_value_out_matz : out std_logic_vector(31 downto 0)		
+	);
+end Data_Memory_Matz;
+
+architecture datamem of Data_Memory_Matz is
+	type data_array_matz is array (0 to 31) of std_logic_vector(31 downto 0);
+	signal data_matz : data_array_matz;
+begin
+
+process(clock_matz)
+begin
+		if rising_edge(clock_matz) then
+			if wenable_matz = '1' then
+					data_matz(to_integer(unsigned(address_in_matz))) <= write_value_in_matz;
+			end if;
+		end if;
+end process;
+
+		read_value_out_matz <= register_matz(to_integer(unsigned(address_in_matz)));
+
+end architecture;

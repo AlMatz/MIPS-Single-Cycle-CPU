@@ -1,0 +1,11 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity ALUControl_Unit_Matzoros is
+port {
+			Function_in_matz : in std_logic_vector(5 downto 0);
+			ALUctrl_in_matz : in std_logic_vector(2 downto 0);
+			ALUctrl_out_matz : in std_logic_vector(2 downto 0);
+		};
+end ALUControl_Unit_Matzoros;

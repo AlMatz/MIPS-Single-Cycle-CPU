@@ -1,0 +1,43 @@
+Quartus II Archive log --	C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/SingleCycleCPU_Matzoros.qarlog
+
+Archive:	C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/SingleCycleCPU_Matzoros.qar
+Date:		Mon May 11 13:57:32 2020
+Quartus II 64-Bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/ALUControl_Unit_Matzoros.vhd
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/ALU_matz.vhd
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/Adder_32_Matzoros.vhd
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/BinaryToBCD_mat_s2020.vhd
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/Control_Unit_Matzoros.vhd
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/Data_Memory_Matz.vhd
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/Instruction_Memory_Matz.vhd
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/Program_Counter_Matzoros.vhd
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/Register_File_Matz.vhd
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/SingleCycleCPU_Matzoros.bdf
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/SingleCycleCPU_Matzoros.qpf
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/SingleCycleCPU_Matzoros.qsf
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/Waveform.vwf
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/conv_bcd_to_7seg_mat.vhd
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/conv_sign_bcd_to_7seg_mat.vhd
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/display_it_mat.vhd
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/immediate_PC_extender_matz.vhd
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/immediate_extender_matz.vhd
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/immediate_holder_matz.vhd
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/incremental_db/compiled_partitions/SingleCycleCPU_Matzoros.db_info
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/instruction_register_matz_s2020.vhd
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/seg_7_display_Nbit.bdf
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/test_bench_matz_SCPU.vhd
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/two2one_5bit_mux_matz.vhd
+C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/two2one_mux_matz.vhd
+c:/altera/13.0sp1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 26 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Mon May 11 13:59:42 2020
+Source archive file:	C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/SingleCycleCPU_Matzoros.qar
+Archive was extracted into	C:/altera/13.0sp1/quartus/projects/SingleCycleCPU_Matzoros/RESTORED_ARCHIVE/
+		 - successfully.
